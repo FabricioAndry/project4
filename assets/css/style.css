@@ -1,0 +1,112 @@
+body, footer > p {
+    background-color: #2f2e41;
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    margin: 0px;
+}
+
+#page {
+    width: 1280px;
+    margin: 0px auto 0px;
+    margin-top: 71px;
+}
+
+#container-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 101px;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    
+}
+
+.menu > li{
+    list-style: none;
+}
+
+.menu > li > a:hover {
+    color: #00BFA6;
+    font-weight: bolder;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 157px;
+}
+
+#conteudo > figure {
+    width: 401px;
+}
+
+h1 {
+    font-weight: normal;
+    width: 609px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 59px;
+}
+
+h1 > span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+section > p {
+    width: 604px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #c2c2c2;
+}
+
+section > p > span {
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+hr {
+    width: 568px;
+    color: #00BFA6;
+    margin: auto auto 20px;
+}
+
+footer {
+    text-align: center;
+    width: 568px;
+    margin: 10px auto;
+}
+
+footer > p > a:hover {
+    color: #00BFA6;
+    font-weight: bolder;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.padlock-decoration {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+figure {
+    margin: 0px;
+}
